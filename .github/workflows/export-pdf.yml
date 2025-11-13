@@ -32,14 +32,18 @@ jobs:
             echo "Exporting schematic $sch -> $out"
             kicad-cli sch export pdf "$sch" --output "$out"
           done
-
+          
           # Export all .kicad_pcb files
           for pcb in $(find . -name "*.kicad_pcb"); do
             base=$(basename "$pcb" .kicad_pcb)
             out="exports/${base}_layout.pdf"
             echo "Exporting layout $pcb -> $out"
-            kicad-cli pcb export pdf "$pcb" --output "$out"
+            # specify at least one layer (you can add more if you like)
+            kicad-cli pcb export pdf "$pcb" \
+              --output "$out" \
+              --layers F.Cu,B.Cu,Edge.Cuts,F.SilkS,B.SilkS
           done
+
 
       - name: Commit and push PDFs back to repo
         run: |
