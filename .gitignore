@@ -4,3 +4,4 @@
 *.kicad_sch-bak
 *.kicad_pcb-bak
 __pycache__/
+kit-prisme-backups
