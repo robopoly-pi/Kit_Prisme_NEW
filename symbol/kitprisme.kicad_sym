@@ -171,6 +171,14 @@
 			)
 		)
 		(symbol "74HC4051_1_1"
+			(text "74HC4051"
+				(at 5.842 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin passive line
 				(at -7.62 7.62 0)
 				(length 2.54)
@@ -894,7 +902,7 @@
 			(pin input line
 				(at -15.24 6.35 0)
 				(length 2.54)
-				(name "IN4/BIN2"
+				(name "SLEEP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -909,10 +917,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -15.24 3.81 0)
 				(length 2.54)
-				(name "IN3/BIN1"
+				(name "AOUT1/OUT1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -927,10 +935,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin output line
 				(at -15.24 1.27 0)
 				(length 2.54)
-				(name "GND"
+				(name "AOUT2/OUT2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -945,10 +953,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin output line
 				(at -15.24 -1.27 0)
 				(length 2.54)
-				(name "VCC"
+				(name "BOUT1/OUT3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -966,7 +974,7 @@
 			(pin output line
 				(at -15.24 -3.81 0)
 				(length 2.54)
-				(name "IN2/AIN2"
+				(name "BOUT2/OUT4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -984,7 +992,7 @@
 			(pin output line
 				(at -15.24 -6.35 0)
 				(length 2.54)
-				(name "IN1/AIN1"
+				(name "FAULT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1002,7 +1010,7 @@
 			(pin input line
 				(at 15.24 6.35 180)
 				(length 2.54)
-				(name "SLEEP"
+				(name "IN4/BIN2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1017,10 +1025,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 15.24 3.81 180)
 				(length 2.54)
-				(name "AOUT1/OUT1"
+				(name "IN3/BIN1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1035,10 +1043,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 15.24 1.27 180)
 				(length 2.54)
-				(name "AOUT2/OUT2"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1053,10 +1061,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 15.24 -1.27 180)
 				(length 2.54)
-				(name "BOUT1/OUT3"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1074,14 +1082,14 @@
 			(pin output line
 				(at 15.24 -3.81 180)
 				(length 2.54)
-				(name "BOUT2/OUT4"
+				(name "IN2/AIN2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1092,14 +1100,14 @@
 			(pin output line
 				(at 15.24 -6.35 180)
 				(length 2.54)
-				(name "FAULT"
+				(name "IN1/AIN1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2059,6 +2067,14 @@
 			)
 		)
 		(symbol "ITR9909_1_1"
+			(text "ITR9909"
+				(at -0.254 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin output line
 				(at -17.78 6.35 0)
 				(length 2.54)
@@ -2077,7 +2093,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -17.78 -6.35 0)
 				(length 2.54)
 				(name ""
@@ -2095,7 +2111,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 17.78 6.35 180)
 				(length 2.54)
 				(name ""
@@ -2113,7 +2129,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 17.78 -6.35 180)
 				(length 2.54)
 				(name ""
@@ -2685,7 +2701,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin input line
 				(at -2.54 11.43 0)
 				(length 2.54)
 				(name "GND"

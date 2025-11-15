@@ -1694,6 +1694,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "QWIIC:qwiic_Logo"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "G"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "qwiic_Logo"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun Qwiic I2C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "qwiic_Logo_0_0"
+				(polyline
+					(pts
+						(xy -5.4327 -0.8446) (xy -5.2808 -0.8039) (xy -5.1544 -0.733) (xy -5.0492 -0.629) (xy -4.9612 -0.4891)
+						(xy -4.9388 -0.4442) (xy -4.9077 -0.3735) (xy -4.8888 -0.3096) (xy -4.878 -0.2364) (xy -4.8713 -0.1381)
+						(xy -4.8691 -0.0268) (xy -4.8861 0.154) (xy -4.9313 0.3092) (xy -5.006 0.4432) (xy -5.1118 0.5598)
+						(xy -5.1427 0.5863) (xy -5.261 0.6623) (xy -5.3915 0.7052) (xy -5.544 0.7187) (xy -5.5765 0.7181)
+						(xy -5.7259 0.6986) (xy -5.8545 0.6485) (xy -5.9707 0.5648) (xy -6.0239 0.5125) (xy -6.1186 0.3839)
+						(xy -6.1815 0.2359) (xy -6.2139 0.0648) (xy -6.2171 -0.1327) (xy -6.208 -0.2303) (xy -6.1669 -0.4073)
+						(xy -6.0959 -0.5571) (xy -5.9957 -0.6791) (xy -5.8667 -0.7722) (xy -5.7097 -0.8355) (xy -5.6837 -0.8418)
+						(xy -5.5963 -0.8532) (xy -5.5114 -0.8538) (xy -5.4327 -0.8446)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.114 -2.7667) (xy 6.0472 -2.7606) (xy 6.2463 -2.7148) (xy 6.337 -2.6928) (xy 6.6505 -2.5964)
+						(xy 6.9363 -2.4737) (xy 7.1992 -2.3218) (xy 7.4443 -2.1381) (xy 7.6763 -1.9197) (xy 7.765 -1.8236)
+						(xy 7.9726 -1.5605) (xy 8.1416 -1.2836) (xy 8.2724 -0.992) (xy 8.3654 -0.6847) (xy 8.4209 -0.3609)
+						(xy 8.4393 -0.0196) (xy 8.4383 0.0655) (xy 8.4145 0.3752) (xy 8.3579 0.6676) (xy 8.2664 0.9511)
+						(xy 8.138 1.234) (xy 8.0972 1.3103) (xy 7.9176 1.5925) (xy 7.7084 1.847) (xy 7.4711 2.0726) (xy 7.2073 2.2681)
+						(xy 6.9187 2.4323) (xy 6.6067 2.5639) (xy 6.273 2.6617) (xy 6.2589 2.6648) (xy 6.2405 2.6684)
+						(xy 6.2191 2.6716) (xy 6.1933 2.6747) (xy 6.1617 2.6775) (xy 6.1229 2.6801) (xy 6.0753 2.6825)
+						(xy 6.0178 2.6847) (xy 5.9488 2.6867) (xy 5.8669 2.6886) (xy 5.7707 2.6902) (xy 5.6588 2.6917)
+						(xy 5.5298 2.693) (xy 5.3823 2.6942) (xy 5.2149 2.6953) (xy 5.0261 2.6962) (xy 4.8146 2.697) (xy 4.579 2.6977)
+						(xy 4.3178 2.6982) (xy 4.0296 2.6987) (xy 3.7131 2.6991) (xy 3.3667 2.6994) (xy 2.9892 2.6997)
+						(xy 2.579 2.6999) (xy 2.1348 2.7) (xy 1.6552 2.7001) (xy 1.1388 2.7001) (xy 0.5841 2.7001) (xy -0.0102 2.7001)
+						(xy -6.1292 2.7001) (xy -6.3505 2.644) (xy -6.4841 2.607) (xy -6.7964 2.4938) (xy -7.0847 2.3484)
+						(xy -7.3523 2.1691) (xy -7.6022 1.9541) (xy -7.8228 1.7179) (xy -8.0199 1.4516) (xy -8.1801 1.1677)
+						(xy -8.3036 0.8654) (xy -8.3907 0.5442) (xy -8.4419 0.2033) (xy -8.4512 -0.0999) (xy -8.4229 -0.4124)
+						(xy -8.358 -0.7268) (xy -8.2573 -1.037) (xy -8.2016 -1.1697) (xy -8.0521 -1.4517) (xy -7.87 -1.7127)
+						(xy -7.6584 -1.9504) (xy -7.4205 -2.1625) (xy -7.1593 -2.3467) (xy -6.878 -2.5006) (xy -6.5797 -2.6219)
+						(xy -6.2674 -2.7084) (xy -5.9444 -2.7576) (xy -5.922 -2.759) (xy -5.8567 -2.7613) (xy -5.7613 -2.7635)
+						(xy -5.6429 -2.7656) (xy -5.5083 -2.7673) (xy -5.3644 -2.7686) (xy -4.8664 -2.772) (xy -4.8664 -2.0042)
+						(xy -4.8664 -1.2363) (xy -4.988 -1.3553) (xy -5.0139 -1.3798) (xy -5.1784 -1.503) (xy -5.3644 -1.5917)
+						(xy -5.5706 -1.6453) (xy -5.7956 -1.6632) (xy -6.0087 -1.6503) (xy -6.2442 -1.6015) (xy -6.468 -1.5153)
+						(xy -6.6423 -1.4122) (xy -6.8101 -1.2696) (xy -6.9545 -1.0983) (xy -7.0706 -0.9035) (xy -7.1159 -0.8066)
+						(xy -7.1662 -0.6802) (xy -7.2032 -0.5549) (xy -7.2309 -0.4168) (xy -7.2531 -0.2517) (xy -7.2645 -0.0773)
+						(xy -7.2559 0.1553) (xy -7.2228 0.3848) (xy -7.1667 0.6002) (xy -7.0895 0.7905) (xy -6.9738 0.984)
+						(xy -6.8224 1.164) (xy -6.645 1.3131) (xy -6.4435 1.4296) (xy -6.2198 1.512) (xy -6.2168 1.5128)
+						(xy -6.0991 1.5354) (xy -5.9587 1.5479) (xy -5.8081 1.5506) (xy -5.6599 1.5435) (xy -5.5266 1.5269)
+						(xy -5.4208 1.5009) (xy -5.3121 1.4578) (xy -5.1345 1.3582) (xy -4.9742 1.2256) (xy -4.8664 1.1205)
+						(xy -4.8664 1.32) (xy -4.8664 1.5195) (xy -4.3428 1.5195) (xy -3.8192 1.5195) (xy -3.8192 1.5092)
+						(xy -3.651 1.5092) (xy -3.1359 1.5147) (xy -3.0732 1.5153) (xy -2.9054 1.5158) (xy -2.7765 1.5144)
+						(xy -2.6848 1.5109) (xy -2.6289 1.5054) (xy -2.607 1.4977) (xy -2.6049 1.4928) (xy -2.5923 1.4545)
+						(xy -2.5697 1.3821) (xy -2.5383 1.2793) (xy -2.4992 1.1497) (xy -2.4535 0.9973) (xy -2.4024 0.8257)
+						(xy -2.3469 0.6386) (xy -2.2883 0.4399) (xy -2.2626 0.353) (xy -2.2055 0.1609) (xy -2.152 -0.0169)
+						(xy -2.1032 -0.1766) (xy -2.0604 -0.3147) (xy -2.0246 -0.4277) (xy -1.9968 -0.512) (xy -1.9783 -0.564)
+						(xy -1.9702 -0.5801) (xy -1.9654 -0.5681) (xy -1.9499 -0.5201) (xy -1.9252 -0.4397) (xy -1.8924 -0.3308)
+						(xy -1.8529 -0.1975) (xy -1.8079 -0.0439) (xy -1.7584 0.1259) (xy -1.7059 0.308) (xy -1.6754 0.4138)
+						(xy -1.6217 0.6001) (xy -1.5705 0.7774) (xy -1.5233 0.9405) (xy -1.4815 1.0844) (xy -1.4467 1.2041)
+						(xy -1.4202 1.2945) (xy -1.4037 1.3504) (xy -1.3525 1.5202) (xy -0.8571 1.5147) (xy -0.3617 1.5092)
+						(xy -0.2632 1.1704) (xy -0.2457 1.1103) (xy -0.1592 0.8126) (xy -0.0832 0.5516) (xy -0.017 0.325)
+						(xy 0.04 0.1304) (xy 0.0886 -0.0344) (xy 0.1296 -0.1717) (xy 0.1636 -0.2838) (xy 0.1915 -0.3731)
+						(xy 0.2138 -0.4419) (xy 0.2315 -0.4925) (xy 0.2451 -0.5272) (xy 0.2555 -0.5482) (xy 0.2633 -0.558)
+						(xy 0.2693 -0.5588) (xy 0.2742 -0.5529) (xy 0.2787 -0.5426) (xy 0.2801 -0.5389) (xy 0.2928 -0.4995)
+						(xy 0.3157 -0.4255) (xy 0.3473 -0.3211) (xy 0.3867 -0.1902) (xy 0.4325 -0.0368) (xy 0.4835 0.1352)
+						(xy 0.5386 0.3216) (xy 0.5966 0.5185) (xy 0.8908 1.5195) (xy 1.3899 1.5195) (xy 1.4919 1.5192)
+						(xy 1.6201 1.518) (xy 1.7294 1.5159) (xy 1.8144 1.5132) (xy 1.8695 1.5099) (xy 1.8891 1.5062)
+						(xy 1.8878 1.5017) (xy 1.8751 1.465) (xy 1.8498 1.3939) (xy 1.8129 1.2913) (xy 1.7656 1.1601)
+						(xy 1.7087 1.0033) (xy 1.6435 0.8236) (xy 1.5709 0.6241) (xy 1.4919 0.4076) (xy 1.4078 0.1771)
+						(xy 1.3194 -0.0646) (xy 0.7498 -1.6222) (xy 2.0329 -1.6222) (xy 2.0329 -0.0513) (xy 2.0329 1.5195)
+						(xy 2.5462 1.5195) (xy 3.0595 1.5195) (xy 3.0595 -0.0513) (xy 3.0595 -1.6222) (xy 3.2649 -1.6222)
+						(xy 3.2649 -0.0513) (xy 3.2649 1.5195) (xy 3.7782 1.5195) (xy 4.2916 1.5195) (xy 4.2916 -0.0513)
+						(xy 4.2916 -0.0616) (xy 4.5072 -0.0616) (xy 4.51 0.109) (xy 4.5206 0.2597) (xy 4.5412 0.3904)
+						(xy 4.5742 0.5118) (xy 4.6219 0.6344) (xy 4.6865 0.7688) (xy 4.7189 0.8272) (xy 4.8331 0.9884)
+						(xy 4.9744 1.1395) (xy 5.1327 1.2705) (xy 5.2977 1.3713) (xy 5.3343 1.3892) (xy 5.5052 1.4608)
+						(xy 5.6736 1.5089) (xy 5.8531 1.5366) (xy 6.0574 1.547) (xy 6.3141 1.5503) (xy 6.3197 1.1242)
+						(xy 6.3252 0.6981) (xy 6.1657 0.6977) (xy 6.0758 0.6938) (xy 5.9577 0.6711) (xy 5.8554 0.6239)
+						(xy 5.7556 0.5473) (xy 5.6613 0.4359) (xy 5.592 0.2991) (xy 5.5481 0.1445) (xy 5.53 -0.0204) (xy 5.5379 -0.188)
+						(xy 5.572 -0.3512) (xy 5.6325 -0.5023) (xy 5.7197 -0.634) (xy 5.7811 -0.6969) (xy 5.8788 -0.7612)
+						(xy 5.9969 -0.8003) (xy 6.1437 -0.8177) (xy 6.3252 -0.8264) (xy 6.3197 -1.2397) (xy 6.3141 -1.653)
+						(xy 6.119 -1.6559) (xy 6.0236 -1.6559) (xy 5.821 -1.6423) (xy 5.6365 -1.6074) (xy 5.4566 -1.5482)
+						(xy 5.2677 -1.4615) (xy 5.1266 -1.3784) (xy 4.9456 -1.2329) (xy 4.7938 -1.0591) (xy 4.6732 -0.8591)
+						(xy 4.6423 -0.7948) (xy 4.5921 -0.6805) (xy 4.5558 -0.5768) (xy 4.5314 -0.4734) (xy 4.5165 -0.3599)
+						(xy 4.5092 -0.2261) (xy 4.5072 -0.0616) (xy 4.2916 -0.0616) (xy 4.2916 -1.6222) (xy 3.7782 -1.6222)
+						(xy 3.2649 -1.6222) (xy 3.0595 -1.6222) (xy 2.5462 -1.6222) (xy 2.0329 -1.6222) (xy 0.7498 -1.6222)
+						(xy 0.2363 -1.6221) (xy -0.2772 -1.6221) (xy -0.5736 -0.6568) (xy -0.583 -0.626) (xy -0.6413 -0.4378)
+						(xy -0.696 -0.2633) (xy -0.746 -0.106) (xy -0.7901 0.0304) (xy -0.8272 0.1421) (xy -0.8559 0.2255)
+						(xy -0.8751 0.277) (xy -0.8836 0.2929) (xy -0.8838 0.2926) (xy -0.8932 0.2679) (xy -0.9134 0.208)
+						(xy -0.9431 0.1169) (xy -0.9811 -0.0016) (xy -1.0262 -0.1436) (xy -1.0771 -0.3054) (xy -1.1326 -0.483)
+						(xy -1.1916 -0.6725) (xy -1.4859 -1.6222) (xy -2.0006 -1.6218) (xy -2.5153 -1.6215) (xy -3.0831 -0.0561)
+						(xy -3.651 1.5092) (xy -3.8192 1.5092) (xy -3.8192 -0.6267) (xy -3.8192 -2.7729) (xy 1.114 -2.7667)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:2N7000"
 			(pin_names
 				(hide yes)
@@ -2884,7 +3046,7 @@
 				(pin input line
 					(at -15.24 6.35 0)
 					(length 2.54)
-					(name "IN4/BIN2"
+					(name "SLEEP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2899,10 +3061,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -15.24 3.81 0)
 					(length 2.54)
-					(name "IN3/BIN1"
+					(name "AOUT1/OUT1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2917,10 +3079,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at -15.24 1.27 0)
 					(length 2.54)
-					(name "GND"
+					(name "AOUT2/OUT2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2935,10 +3097,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at -15.24 -1.27 0)
 					(length 2.54)
-					(name "VCC"
+					(name "BOUT1/OUT3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2956,7 +3118,7 @@
 				(pin output line
 					(at -15.24 -3.81 0)
 					(length 2.54)
-					(name "IN2/AIN2"
+					(name "BOUT2/OUT4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2974,7 +3136,7 @@
 				(pin output line
 					(at -15.24 -6.35 0)
 					(length 2.54)
-					(name "IN1/AIN1"
+					(name "FAULT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2992,7 +3154,7 @@
 				(pin input line
 					(at 15.24 6.35 180)
 					(length 2.54)
-					(name "SLEEP"
+					(name "IN4/BIN2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3007,10 +3169,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 15.24 3.81 180)
 					(length 2.54)
-					(name "AOUT1/OUT1"
+					(name "IN3/BIN1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3025,10 +3187,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at 15.24 1.27 180)
 					(length 2.54)
-					(name "AOUT2/OUT2"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3043,10 +3205,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at 15.24 -1.27 180)
 					(length 2.54)
-					(name "BOUT1/OUT3"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3064,14 +3226,14 @@
 				(pin output line
 					(at 15.24 -3.81 180)
 					(length 2.54)
-					(name "BOUT2/OUT4"
+					(name "IN2/AIN2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3082,14 +3244,14 @@
 				(pin output line
 					(at 15.24 -6.35 180)
 					(length 2.54)
-					(name "FAULT"
+					(name "IN1/AIN1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4049,6 +4211,14 @@
 				)
 			)
 			(symbol "ITR9909_1_1"
+				(text "ITR9909"
+					(at -0.254 -6.604 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin output line
 					(at -17.78 6.35 0)
 					(length 2.54)
@@ -4067,7 +4237,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -17.78 -6.35 0)
 					(length 2.54)
 					(name ""
@@ -4085,7 +4255,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 17.78 6.35 180)
 					(length 2.54)
 					(name ""
@@ -4103,7 +4273,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at 17.78 -6.35 180)
 					(length 2.54)
 					(name ""
@@ -4675,7 +4845,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin input line
 					(at -2.54 11.43 0)
 					(length 2.54)
 					(name "GND"
@@ -6442,6 +6612,16 @@
 			)
 		)
 		(uuid "a16bc9fd-d61f-4169-9c32-b564e4c40673")
+	)
+	(text "there is ~70 Ohm trough the chip. beware"
+		(exclude_from_sim no)
+		(at 349.504 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "afcc3ef6-6d7a-4309-bf66-abe6102e5add")
 	)
 	(text "if the board change and we have more than 5V, nsleep require a resistor"
 		(exclude_from_sim no)
@@ -14753,7 +14933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "057fabe0-c392-449a-8c16-14bc093daada")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR084"
 			(at 393.7 124.46 0)
 			(effects
 				(font
@@ -14804,7 +14984,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR080")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -14819,7 +14999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b9ae70d-a251-4cc5-8745-2592087aacd7")
-		(property "Reference" "J21"
+		(property "Reference" "J16"
 			(at 386.842 188.722 90)
 			(effects
 				(font
@@ -14837,7 +15017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 388.62 193.04 0)
 			(effects
 				(font
@@ -14879,7 +15059,77 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J21")
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kitprisme:28650_Holder")
+		(at 25.4 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c064b20-8de9-4603-849d-0e8cc6357657")
+		(property "Reference" "U1"
+			(at 31.75 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 31.75 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kit-prisme:Battery_Holder_18650_robop"
+			(at 25.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9b52aae-9126-4837-b12d-68921dd33d3e")
+		)
+		(pin "1"
+			(uuid "c66421cb-2374-4f5d-b670-5981889efbf7")
+		)
+		(instances
+			(project ""
+				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -14894,7 +15144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c77a54f-0ae4-4339-88ed-58976b125ad0")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 260.35 248.92 0)
 			(effects
 				(font
@@ -14944,7 +15194,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15030,7 +15280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e1922e9-2c27-4ae3-bb43-ed76f867630e")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR064"
 			(at 377.19 35.56 0)
 			(effects
 				(font
@@ -15080,7 +15330,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR055")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -15095,7 +15345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f04190e-0b17-4408-acad-f3f53da22283")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR057"
 			(at 374.65 132.08 0)
 			(effects
 				(font
@@ -15146,7 +15396,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR058")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -15162,7 +15412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14db2551-17f9-4acc-99f6-029002122aaa")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR079"
 			(at 386.08 195.58 0)
 			(effects
 				(font
@@ -15213,7 +15463,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR095")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -15360,7 +15610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "184e2273-c829-48ab-9475-7d972d130005")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR091"
 			(at 397.51 93.98 0)
 			(effects
 				(font
@@ -15411,7 +15661,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR076")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -15836,7 +16086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bfbcfee-4cd8-443a-8f01-ceecd848ae86")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR083"
 			(at 393.7 104.14 0)
 			(effects
 				(font
@@ -15887,7 +16137,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR078")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -15903,7 +16153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c621f9b-ca3e-4910-9c7e-e7e961c14a45")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR054"
 			(at 323.85 35.56 0)
 			(effects
 				(font
@@ -15953,7 +16203,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR045")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -15968,7 +16218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f23d8c0-3919-4a87-8f53-68920bf22867")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 374.65 213.36 0)
 			(effects
 				(font
@@ -16019,7 +16269,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -16116,7 +16366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:ITR_9909_Horizontal"
 			(at 341.63 220.98 0)
 			(effects
 				(font
@@ -16173,7 +16423,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "222511dd-d045-4eb0-a2cc-f7b91b2be4ab")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0103"
 			(at 405.13 185.42 0)
 			(effects
 				(font
@@ -16224,7 +16474,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR094")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -16324,7 +16574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 377.19 46.99 0)
 			(effects
 				(font
@@ -16559,7 +16809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24a192d1-cef6-4db0-89d4-ff15a0d9a231")
-		(property "Reference" "J19"
+		(property "Reference" "J15"
 			(at 386.842 168.402 90)
 			(effects
 				(font
@@ -16577,7 +16827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 388.62 172.72 0)
 			(effects
 				(font
@@ -16619,7 +16869,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J19")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -16650,7 +16900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:ITR_9909_Horizontal"
 			(at 341.63 99.06 0)
 			(effects
 				(font
@@ -16774,7 +17024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b5ff1ca-0a5c-40c5-b3bf-8a8c10770fc1")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR092"
 			(at 397.51 114.3 0)
 			(effects
 				(font
@@ -16825,7 +17075,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR081")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -16895,76 +17145,6 @@
 			(project ""
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kitprisme:28650_Holder")
-		(at 25.4 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bf4a779-bb29-40d7-997c-e762f6290832")
-		(property "Reference" "U1"
-			(at 31.75 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 31.75 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_1042_1x18650"
-			(at 25.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 25.4 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3827123a-08b6-442f-b877-32b9ae72ec56")
-		)
-		(pin "1"
-			(uuid "10f6bcd5-782d-407b-b15f-c50f0fb6a883")
-		)
-		(instances
-			(project ""
-				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -17054,7 +17234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d73c8ff-8792-4159-9413-9c74d2a7af53")
-		(property "Reference" "J15"
+		(property "Reference" "J13"
 			(at 386.842 127.762 90)
 			(effects
 				(font
@@ -17072,7 +17252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 388.62 132.08 0)
 			(effects
 				(font
@@ -17114,7 +17294,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J15")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -17145,7 +17325,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 242.57 163.83 0)
 			(effects
 				(font
@@ -17351,7 +17531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
 			(at 106.68 242.57 0)
 			(effects
 				(font
@@ -17580,7 +17760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32d53641-9bc9-4dcd-a61e-c0da22c06fab")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR090"
 			(at 393.7 246.38 0)
 			(effects
 				(font
@@ -17631,7 +17811,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR0104")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -17647,7 +17827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "354ca1fb-3f69-42df-9c8c-70bb3c41d4f2")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 251.46 87.63 0)
 			(effects
 				(font
@@ -17697,7 +17877,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17730,7 +17910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 232.41 267.97 0)
 			(effects
 				(font
@@ -17787,7 +17967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38225e0f-04e4-4fa0-81fa-5ac7514e7b5e")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR0101"
 			(at 405.13 144.78 0)
 			(effects
 				(font
@@ -17838,7 +18018,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR086")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -17853,7 +18033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38e6759a-28a5-4cb9-ae2f-c7e2c26d3dbc")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0100"
 			(at 405.13 124.46 0)
 			(effects
 				(font
@@ -17904,7 +18084,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR082")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -18135,7 +18315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 400.05 233.68 0)
 			(effects
 				(font
@@ -18391,7 +18571,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4150f3d0-e2e0-41db-b887-6007b829e5f5")
-		(property "Reference" "J25"
+		(property "Reference" "J18"
 			(at 386.842 229.362 90)
 			(effects
 				(font
@@ -18409,7 +18589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 388.62 233.68 0)
 			(effects
 				(font
@@ -18451,7 +18631,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J25")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -18665,7 +18845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44b0dbfc-34db-4546-a9a2-186a3979146f")
-		(property "Reference" "J22"
+		(property "Reference" "J24"
 			(at 399.034 189.23 90)
 			(effects
 				(font
@@ -18683,7 +18863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 400.05 193.04 0)
 			(effects
 				(font
@@ -18725,7 +18905,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J22")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -18806,7 +18986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49e94fc9-4e01-4e9f-8f85-cc9f99def6d5")
-		(property "Reference" "J20"
+		(property "Reference" "J23"
 			(at 399.034 168.91 90)
 			(effects
 				(font
@@ -18824,7 +19004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 400.05 172.72 0)
 			(effects
 				(font
@@ -18866,7 +19046,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J20")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -18881,7 +19061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a8a4e83-443c-4233-95d9-77c5973b4128")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR060"
 			(at 374.65 193.04 0)
 			(effects
 				(font
@@ -18932,7 +19112,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR061")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -18948,7 +19128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c28cbd5-2cfb-431c-999a-52f1335c41e1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR029"
 			(at 242.57 184.15 0)
 			(effects
 				(font
@@ -18998,7 +19178,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR04")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -19013,7 +19193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d74f1d7-2b97-4fe1-8ffc-4a5c4be3b82e")
-		(property "Reference" "J14"
+		(property "Reference" "J20"
 			(at 399.034 107.95 90)
 			(effects
 				(font
@@ -19031,7 +19211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 400.05 111.76 0)
 			(effects
 				(font
@@ -19073,7 +19253,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J14")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -19088,7 +19268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4dccd3aa-59f9-4cdc-9e09-bcded20ed3fb")
-		(property "Reference" "J16"
+		(property "Reference" "J21"
 			(at 399.034 128.27 90)
 			(effects
 				(font
@@ -19106,7 +19286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 400.05 132.08 0)
 			(effects
 				(font
@@ -19148,80 +19328,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kitprisme:HW-668")
-		(at 52.07 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ec5ff44-be29-4ef7-8a8e-c45a8da54f99")
-		(property "Reference" "U2"
-			(at 45.974 25.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 52.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c877db56-87c6-4309-ab94-857944674285")
-		)
-		(pin "2"
-			(uuid "57171450-0b9e-4d31-a296-4842de902fc5")
-		)
-		(pin "3"
-			(uuid "dd24f77c-f45e-4ec5-a68f-23c631babf16")
-		)
-		(pin "1"
-			(uuid "374c5fb9-3d5f-4447-b6df-b03af4de52e5")
-		)
-		(instances
-			(project ""
-				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "U2")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -19236,7 +19343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f6f5ce1-e2d2-4fe2-b385-73a74fe63d6d")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR085"
 			(at 393.7 144.78 0)
 			(effects
 				(font
@@ -19287,7 +19394,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR084")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -19303,7 +19410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f7c1c61-a0e8-4157-8117-ced1ecd575fb")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR080"
 			(at 386.08 215.9 0)
 			(effects
 				(font
@@ -19354,7 +19461,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR099")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -19369,7 +19476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5200ac5d-10e7-47b3-b571-a784eca21b88")
-		(property "Reference" "J12"
+		(property "Reference" "J11"
 			(at 386.842 87.122 90)
 			(effects
 				(font
@@ -19387,7 +19494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 388.62 91.44 0)
 			(effects
 				(font
@@ -19429,7 +19536,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J12")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -19579,7 +19686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5492cddf-b77b-45a0-bcc8-2bf185805928")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR076"
 			(at 386.08 134.62 0)
 			(effects
 				(font
@@ -19630,7 +19737,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR083")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -19713,7 +19820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5671e418-495f-4beb-a875-8a80d0e30fba")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 264.16 236.22 0)
 			(effects
 				(font
@@ -19764,7 +19871,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -19873,7 +19980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:Bornier"
 			(at 142.24 156.21 0)
 			(effects
 				(font
@@ -19999,7 +20106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "572c83dc-7af7-4644-8f22-a68ad42f6e9b")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 374.65 152.4 0)
 			(effects
 				(font
@@ -20050,7 +20157,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -20216,7 +20323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:Bornier"
 			(at 142.24 161.29 0)
 			(effects
 				(font
@@ -20267,7 +20374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ae51994-05bb-4bcf-8c6d-3c034ccc1efc")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0102"
 			(at 405.13 165.1 0)
 			(effects
 				(font
@@ -20318,7 +20425,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR090")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -20334,7 +20441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bf4f713-2af9-4abb-9f69-adb41dc8f252")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 251.46 123.19 0)
 			(effects
 				(font
@@ -20384,7 +20491,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -20399,7 +20506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d940980-1c29-43d3-8910-acb8f75ebe83")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0104"
 			(at 405.13 205.74 0)
 			(effects
 				(font
@@ -20450,7 +20557,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR098")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -20524,6 +20631,70 @@
 		)
 	)
 	(symbol
+		(lib_id "QWIIC:qwiic_Logo")
+		(at 255.27 279.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64ce38ba-fd35-47fb-b376-af46c91a2fed")
+		(property "Reference" "G1"
+			(at 255.27 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "qwiic_Logo"
+			(at 255.27 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
+					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 388.62 213.36 90)
 		(unit 1)
@@ -20532,7 +20703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66e9909d-8fe1-4fda-9e35-05ac938bf0f5")
-		(property "Reference" "J23"
+		(property "Reference" "J17"
 			(at 386.842 209.042 90)
 			(effects
 				(font
@@ -20550,7 +20721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 388.62 213.36 0)
 			(effects
 				(font
@@ -20592,7 +20763,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J23")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -20623,7 +20794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:ITR_9909_Horizontal"
 			(at 341.63 139.7 0)
 			(effects
 				(font
@@ -21100,7 +21271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 292.1 231.14 0)
 			(effects
 				(font
@@ -21224,7 +21395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f1cc05b-be0c-4c03-bf45-23722bdfd536")
-		(property "Reference" "J17"
+		(property "Reference" "J14"
 			(at 386.842 148.082 90)
 			(effects
 				(font
@@ -21242,7 +21413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 388.62 152.4 0)
 			(effects
 				(font
@@ -21284,7 +21455,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J17")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -21299,7 +21470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "700ae375-866f-4e47-a57f-914f2c478f00")
-		(property "Reference" "J24"
+		(property "Reference" "J25"
 			(at 399.034 209.55 90)
 			(effects
 				(font
@@ -21317,7 +21488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 400.05 213.36 0)
 			(effects
 				(font
@@ -21359,7 +21530,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J24")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -21374,7 +21545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70f12618-5ebe-41e9-a004-7b9dcb7a8ab7")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 374.65 172.72 0)
 			(effects
 				(font
@@ -21425,7 +21596,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -21457,7 +21628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias"
 			(at 113.03 114.3 0)
 			(effects
 				(font
@@ -21551,7 +21722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "718c3bf1-ce27-4703-bf5b-e9d124c03558")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR045"
 			(at 318.77 15.24 0)
 			(effects
 				(font
@@ -21601,7 +21772,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR036")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -21610,15 +21781,15 @@
 	(symbol
 		(lib_id "kitprisme:DRV8833_BREAKOUT")
 		(at 113.03 160.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "74e3d7dc-89af-4e4a-b73c-44d696b1de28")
 		(property "Reference" "U5"
-			(at 113.03 139.7 0)
+			(at 113.03 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21626,14 +21797,14 @@
 			)
 		)
 		(property "Value" "~"
-			(at 113.03 142.24 0)
+			(at 113.03 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:HW-627_DRV8833"
 			(at 113.03 160.02 0)
 			(effects
 				(font
@@ -21730,7 +21901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:ITR_9909_Horizontal"
 			(at 341.63 241.3 0)
 			(effects
 				(font
@@ -21803,7 +21974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:ITR_9909_Horizontal"
 			(at 341.63 200.66 0)
 			(effects
 				(font
@@ -21861,7 +22032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7857b7f3-9b4e-4863-a3a0-1a21341a1f80")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR055"
 			(at 323.85 71.12 0)
 			(effects
 				(font
@@ -21911,7 +22082,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR046")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -22014,7 +22185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 293.37 163.83 0)
 			(effects
 				(font
@@ -22068,7 +22239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fac96fd-fa53-47cf-9053-abc6adb29c5d")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR063"
 			(at 374.65 254 0)
 			(effects
 				(font
@@ -22119,7 +22290,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR064")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -22135,7 +22306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "860a3445-254a-4be0-b69b-50301c8941a1")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR078"
 			(at 386.08 175.26 0)
 			(effects
 				(font
@@ -22186,7 +22357,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR091")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -22202,7 +22373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86ae55e3-d45f-4f0e-a922-b4bdce1fbd1f")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR074"
 			(at 386.08 93.98 0)
 			(effects
 				(font
@@ -22253,7 +22424,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR075")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -22268,7 +22439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8749629c-7824-4e5d-8be1-e06da1b860fb")
-		(property "Reference" "J18"
+		(property "Reference" "J22"
 			(at 399.034 148.59 90)
 			(effects
 				(font
@@ -22286,7 +22457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 400.05 152.4 0)
 			(effects
 				(font
@@ -22328,7 +22499,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J18")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -22343,7 +22514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8810ceec-b0b4-42c6-aacd-371b1a4017e7")
-		(property "Reference" "J13"
+		(property "Reference" "J12"
 			(at 386.842 107.442 90)
 			(effects
 				(font
@@ -22361,7 +22532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 388.62 111.76 0)
 			(effects
 				(font
@@ -22403,7 +22574,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J13")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -22419,7 +22590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88ccdced-8185-45ce-91b1-84fda4b62374")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR04"
 			(at 43.18 248.92 0)
 			(effects
 				(font
@@ -22469,7 +22640,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR074")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -22571,7 +22742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
 			(at 92.71 242.57 0)
 			(effects
 				(font
@@ -22747,7 +22918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:encoder"
 			(at 232.41 55.88 0)
 			(effects
 				(font
@@ -22808,7 +22979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e4fd99e-a358-497b-855d-41b2bb4eb091")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR093"
 			(at 397.51 134.62 0)
 			(effects
 				(font
@@ -22859,7 +23030,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR085")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -22941,7 +23112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90ab4b68-f9f2-4543-b92c-426f015772ea")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR089"
 			(at 393.7 226.06 0)
 			(effects
 				(font
@@ -22992,7 +23163,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR0100")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -23074,7 +23245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91600cf5-8692-4cbb-84a7-ac665c535521")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR053"
 			(at 321.31 254 0)
 			(effects
 				(font
@@ -23125,7 +23296,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR054")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -23140,7 +23311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9293a5c8-269e-4bb9-a60a-c49dc2d627d2")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0105"
 			(at 405.13 226.06 0)
 			(effects
 				(font
@@ -23191,7 +23362,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR0102")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -23207,7 +23378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "936c1f4c-1f95-41b4-9b27-d9741bd23471")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 276.86 271.78 0)
 			(effects
 				(font
@@ -23258,7 +23429,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -23393,6 +23564,79 @@
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kitprisme:HW-668")
+		(at 52.07 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "942055fd-ea45-40d6-9317-eef2f0fbfbe3")
+		(property "Reference" "U2"
+			(at 46.482 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kit-prisme:HW-668"
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bedfecb-c512-4225-a546-9df4f35ad7c8")
+		)
+		(pin "4"
+			(uuid "441ab189-2c46-4682-9189-ca9af7a46aeb")
+		)
+		(pin "1"
+			(uuid "7683d29b-a0c6-4092-9825-8c57f01a29c7")
+		)
+		(pin "3"
+			(uuid "07435813-2487-40f7-a1c7-8f0d14fb7a6e")
+		)
+		(instances
+			(project ""
+				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -23814,7 +24058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e96aeb9-6b15-49b0-bdfa-53332a6a7f27")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR050"
 			(at 321.31 193.04 0)
 			(effects
 				(font
@@ -23865,7 +24109,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -24286,7 +24530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a64a2eeb-541b-402f-82dc-e8aa5cf660f6")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR051"
 			(at 321.31 213.36 0)
 			(effects
 				(font
@@ -24337,7 +24581,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR052")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -24352,7 +24596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8311bdf-e24e-4501-ba41-01a0ba882bfb")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR088"
 			(at 393.7 205.74 0)
 			(effects
 				(font
@@ -24403,7 +24647,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR096")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -24434,7 +24678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 224.79 163.83 0)
 			(effects
 				(font
@@ -24558,7 +24802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9e14f19-9823-4aa1-acab-122a11003656")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR075"
 			(at 386.08 114.3 0)
 			(effects
 				(font
@@ -24609,7 +24853,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR079")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -24964,76 +25208,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Buzzer")
-		(at 254 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b407cfc4-782b-435c-87c7-590290587640")
-		(property "Reference" "BZ1"
-			(at 257.81 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 257.81 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 253.365 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 253.365 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 254 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d747b150-364c-4006-a1e4-b9925d0ed33d")
-		)
-		(pin "2"
-			(uuid "273fd1cb-a4bd-4a2f-9769-fde67f9ca250")
-		)
-		(instances
-			(project ""
-				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "BZ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "kitprisme:WS2812B")
 		(at 260.35 163.83 0)
 		(unit 1)
@@ -25058,7 +25232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 260.35 163.83 0)
 			(effects
 				(font
@@ -25116,7 +25290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5870ad1-9a83-40fa-904d-8e8ca68dbd64")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 273.05 280.67 0)
 			(effects
 				(font
@@ -25166,7 +25340,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -25248,7 +25422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7321a11-a171-4fe5-847c-94739919bee4")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR082"
 			(at 387.35 15.24 0)
 			(effects
 				(font
@@ -25298,7 +25472,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR065")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -25314,7 +25488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b762c0c2-0eda-4f3e-a72e-56658ee9f7b3")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR081"
 			(at 386.08 236.22 0)
 			(effects
 				(font
@@ -25365,7 +25539,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR0103")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -25446,7 +25620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c062320a-aade-41cd-a837-0e8f1ad193b8")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 321.31 152.4 0)
 			(effects
 				(font
@@ -25497,7 +25671,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -25512,7 +25686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c244d807-292c-4b13-b2a7-35e6e4cfe455")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR086"
 			(at 393.7 165.1 0)
 			(effects
 				(font
@@ -25563,7 +25737,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR088")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -25664,7 +25838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_5273-02A_1x02_P3.96mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 48.26 50.8 0)
 			(effects
 				(font
@@ -25715,7 +25889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c55e1efc-5cb3-4db8-937e-e466872eab28")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 321.31 233.68 0)
 			(effects
 				(font
@@ -25766,7 +25940,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -25847,7 +26021,7 @@
 		(dnp no)
 		(uuid "c5de55b3-23b5-473c-8533-074b424e694a")
 		(property "Reference" "U13"
-			(at 325.12 35.814 0)
+			(at 317.246 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25864,7 +26038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 323.85 46.99 0)
 			(effects
 				(font
@@ -25958,7 +26132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc496124-613f-4559-af9d-106f3f6bdd0b")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR095"
 			(at 397.51 175.26 0)
 			(effects
 				(font
@@ -26009,7 +26183,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR093")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -26091,7 +26265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce6dd2ec-398f-46b9-a76d-45bb4e9c6981")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR099"
 			(at 405.13 104.14 0)
 			(effects
 				(font
@@ -26142,7 +26316,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR077")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -26158,7 +26332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cee732e8-fa10-488d-bc9e-863825604191")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR096"
 			(at 397.51 195.58 0)
 			(effects
 				(font
@@ -26209,7 +26383,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR097")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -26242,7 +26416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
 			(at 119.38 242.57 0)
 			(effects
 				(font
@@ -26336,7 +26510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d38f85e1-e954-40cc-9fc3-944331188552")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR077"
 			(at 386.08 154.94 0)
 			(effects
 				(font
@@ -26387,7 +26561,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR087")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -26553,7 +26727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:encoder"
 			(at 233.68 27.94 0)
 			(effects
 				(font
@@ -26631,7 +26805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 281.94 269.24 0)
 			(effects
 				(font
@@ -26704,7 +26878,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:ITR_9909_Horizontal"
 			(at 341.63 180.34 0)
 			(effects
 				(font
@@ -26762,7 +26936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daeef7ef-7cb4-495a-8862-0594dd34963b")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR065"
 			(at 377.19 71.12 0)
 			(effects
 				(font
@@ -26812,7 +26986,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR056")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -26828,7 +27002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc4e8497-7359-4e12-94c6-93988ebfb683")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 243.84 39.37 0)
 			(effects
 				(font
@@ -26878,7 +27052,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -27044,7 +27218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:SOP65P640X110-28N"
 			(at 63.5 243.84 0)
 			(effects
 				(font
@@ -27231,6 +27405,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Buzzer")
+		(at 254 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e065c370-023d-4f39-91c8-67bd070d1ccd")
+		(property "Reference" "BZ1"
+			(at 257.81 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 257.81 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kit-prisme:Buzzer_12mm_diam_5mm_pitch"
+			(at 253.365 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 253.365 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa59dcdc-2e93-4a8b-856b-88afa9d30455")
+		)
+		(pin "1"
+			(uuid "084ba573-04b9-4b19-8411-6465e618a074")
+		)
+		(instances
+			(project ""
+				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
+					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 321.31 105.41 0)
 		(unit 1)
@@ -27239,7 +27483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e280675e-c3b5-4acd-bc14-e8106f12cdf5")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 321.31 111.76 0)
 			(effects
 				(font
@@ -27290,7 +27534,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -27321,7 +27565,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:ITR_9909_Horizontal"
 			(at 341.63 160.02 0)
 			(effects
 				(font
@@ -27378,7 +27622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e460af0d-db43-42d6-a745-e2265ac3521b")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR056"
 			(at 374.65 111.76 0)
 			(effects
 				(font
@@ -27429,7 +27673,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR057")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -27460,7 +27704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:WEMOS_LoLin32_Lite"
 			(at 127 74.93 0)
 			(effects
 				(font
@@ -27599,7 +27843,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 278.13 163.83 0)
 			(effects
 				(font
@@ -27657,7 +27901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7f3cfe2-130e-4ac0-b319-4711f20cb83f")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR098"
 			(at 397.51 236.22 0)
 			(effects
 				(font
@@ -27708,7 +27952,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR0105")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -27856,7 +28100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebb17faa-6e24-4870-967e-acf9925519ba")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 321.31 172.72 0)
 			(effects
 				(font
@@ -27907,7 +28151,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -27922,7 +28166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebda10df-60e3-4866-88c2-ddc4a1529a4e")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 321.31 132.08 0)
 			(effects
 				(font
@@ -27973,7 +28217,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -27988,7 +28232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee13bb92-2f7a-4f13-a6c6-7bd092c69a75")
-		(property "Reference" "J11"
+		(property "Reference" "J19"
 			(at 399.034 87.63 90)
 			(effects
 				(font
@@ -28006,7 +28250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 400.05 91.44 0)
 			(effects
 				(font
@@ -28048,7 +28292,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "J11")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -28133,7 +28377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f36d51de-ad45-4b24-80cf-a342416aeb1c")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR087"
 			(at 393.7 185.42 0)
 			(effects
 				(font
@@ -28184,7 +28428,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR092")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -28344,7 +28588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f97ef863-cd0b-4cc1-b2b1-16c75f51d76b")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR097"
 			(at 397.51 215.9 0)
 			(effects
 				(font
@@ -28395,7 +28639,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR0101")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -28410,7 +28654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fab75bab-ff5c-436c-a294-0ed89c31792e")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR062"
 			(at 374.65 233.68 0)
 			(effects
 				(font
@@ -28461,7 +28705,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR063")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -28492,7 +28736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kit-prisme:ITR_9909_Horizontal"
 			(at 341.63 119.38 0)
 			(effects
 				(font
@@ -28693,7 +28937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff4f349a-bd74-4aa3-be38-8960d82abae8")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR094"
 			(at 397.51 154.94 0)
 			(effects
 				(font
@@ -28744,7 +28988,7 @@
 		(instances
 			(project "kit-prisme"
 				(path "/c8be66a5-d614-4cb4-8426-5c9716b3c5ca"
-					(reference "#PWR089")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
