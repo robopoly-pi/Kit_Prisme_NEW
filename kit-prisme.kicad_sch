@@ -6533,6 +6533,16 @@
 		)
 		(uuid "62c45252-5215-4ab7-a8f1-1cc556de6cb9")
 	)
+	(text "pinout servo : PWM, VCC, GND\n"
+		(exclude_from_sim no)
+		(at 102.616 273.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71934577-68c1-418a-9ede-cb4445eec048")
+	)
 	(text "also serve as I2C pullup"
 		(exclude_from_sim no)
 		(at 217.678 221.488 0)
@@ -6756,6 +6766,12 @@
 		(uuid "091295a2-a451-4bdb-9b1f-93e9c681ec4c")
 	)
 	(junction
+		(at 111.76 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09a86e00-f619-4b04-99f8-827cf373b4e9")
+	)
+	(junction
 		(at 99.06 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6822,6 +6838,12 @@
 		(uuid "3fef4286-ab98-4e59-9922-a2c973ab1222")
 	)
 	(junction
+		(at 111.76 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4421483e-877a-466d-9c8f-0c4de60183c9")
+	)
+	(junction
 		(at 260.35 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6864,10 +6886,10 @@
 		(uuid "4fbdc28e-0ceb-4663-8fbc-7c871f7be46a")
 	)
 	(junction
-		(at 111.76 212.09)
+		(at 111.76 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5228ae37-6f45-44cf-96ac-eaafc8a3d33f")
+		(uuid "50a08320-5faa-425e-8df2-696f26f5bff6")
 	)
 	(junction
 		(at 242.57 175.26)
@@ -7110,12 +7132,6 @@
 		(uuid "cedc00af-becb-498a-bb10-8004e59cc43a")
 	)
 	(junction
-		(at 99.06 262.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3fd51ea-43b3-4a8f-8a56-6aaac2dc9016")
-	)
-	(junction
 		(at 38.1 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7132,12 +7148,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1f5dfd2-22be-4ce7-a02d-fb0d3f114712")
-	)
-	(junction
-		(at 111.76 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3ff60b9-321c-4bf7-b717-53fa989de9e7")
 	)
 	(junction
 		(at 99.06 242.57)
@@ -7516,6 +7526,16 @@
 			(type default)
 		)
 		(uuid "0cf9a6f8-5fc0-4cec-8836-6df5124d9c3a")
+	)
+	(wire
+		(pts
+			(xy 111.76 222.25) (xy 111.76 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d25214f-a1f6-4ee0-83c4-77cdc2fdf888")
 	)
 	(wire
 		(pts
@@ -8749,16 +8769,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 222.25) (xy 99.06 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d834be4-5499-43a0-91cb-4b7a6db40ba0")
-	)
-	(wire
-		(pts
 			(xy 278.13 175.26) (xy 287.02 175.26)
 		)
 		(stroke
@@ -9729,16 +9739,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 212.09) (xy 111.76 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80318ebf-30e4-4b68-bc2a-681a04b836ea")
-	)
-	(wire
-		(pts
 			(xy 322.58 133.35) (xy 322.58 139.7)
 		)
 		(stroke
@@ -10249,6 +10249,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 212.09) (xy 111.76 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9405364c-bf79-4951-9ee8-3d5eca6f0e6f")
+	)
+	(wire
+		(pts
 			(xy 241.3 25.4) (xy 243.84 25.4)
 		)
 		(stroke
@@ -10509,7 +10519,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 214.63) (xy 99.06 212.09)
+			(xy 99.06 212.09) (xy 99.06 224.79)
 		)
 		(stroke
 			(width 0)
@@ -10616,6 +10626,16 @@
 			(type default)
 		)
 		(uuid "a60e803c-ec7b-4902-9e67-ea2942063f08")
+	)
+	(wire
+		(pts
+			(xy 111.76 262.89) (xy 111.76 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6bcc7f7-4fb0-4b1c-9d29-57da06bfbd9f")
 	)
 	(wire
 		(pts
@@ -12169,16 +12189,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 262.89) (xy 99.06 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff19b922-400f-4e5b-8f8a-a1eb3ed3ff26")
-	)
-	(wire
-		(pts
 			(xy 45.72 252.73) (xy 43.18 252.73)
 		)
 		(stroke
@@ -12261,7 +12271,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_1"
 		(shape input)
 		(at 400.05 118.11 270)
 		(fields_autoplaced yes)
@@ -12393,7 +12403,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_1"
 		(shape input)
 		(at 388.62 118.11 270)
 		(fields_autoplaced yes)
@@ -12503,7 +12513,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_5"
 		(shape input)
 		(at 402.59 199.39 270)
 		(fields_autoplaced yes)
@@ -12569,7 +12579,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_7"
 		(shape input)
 		(at 391.16 240.03 270)
 		(fields_autoplaced yes)
@@ -12591,7 +12601,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_6"
 		(shape input)
 		(at 388.62 219.71 270)
 		(fields_autoplaced yes)
@@ -12613,7 +12623,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_1"
 		(shape input)
 		(at 402.59 118.11 270)
 		(fields_autoplaced yes)
@@ -12679,7 +12689,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_7"
 		(shape input)
 		(at 400.05 240.03 270)
 		(fields_autoplaced yes)
@@ -12767,7 +12777,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_3"
 		(shape input)
 		(at 402.59 158.75 270)
 		(fields_autoplaced yes)
@@ -12877,7 +12887,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_4"
 		(shape input)
 		(at 391.16 179.07 270)
 		(fields_autoplaced yes)
@@ -12965,7 +12975,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_4"
 		(shape input)
 		(at 388.62 179.07 270)
 		(fields_autoplaced yes)
@@ -13009,7 +13019,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_6"
 		(shape input)
 		(at 402.59 219.71 270)
 		(fields_autoplaced yes)
@@ -13097,7 +13107,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_2"
 		(shape input)
 		(at 391.16 138.43 270)
 		(fields_autoplaced yes)
@@ -13207,7 +13217,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_3"
 		(shape input)
 		(at 391.16 158.75 270)
 		(fields_autoplaced yes)
@@ -13317,7 +13327,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_2"
 		(shape input)
 		(at 400.05 138.43 270)
 		(fields_autoplaced yes)
@@ -13515,7 +13525,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_2"
 		(shape input)
 		(at 402.59 138.43 270)
 		(fields_autoplaced yes)
@@ -13559,7 +13569,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_4"
 		(shape input)
 		(at 400.05 179.07 270)
 		(fields_autoplaced yes)
@@ -13603,7 +13613,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_5"
 		(shape input)
 		(at 400.05 199.39 270)
 		(fields_autoplaced yes)
@@ -13625,7 +13635,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_5"
 		(shape input)
 		(at 391.16 199.39 270)
 		(fields_autoplaced yes)
@@ -13647,7 +13657,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_3"
 		(shape input)
 		(at 388.62 158.75 270)
 		(fields_autoplaced yes)
@@ -13713,7 +13723,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_2"
 		(shape input)
 		(at 388.62 138.43 270)
 		(fields_autoplaced yes)
@@ -13757,7 +13767,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_5"
 		(shape input)
 		(at 388.62 199.39 270)
 		(fields_autoplaced yes)
@@ -14021,7 +14031,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_6"
 		(shape input)
 		(at 400.05 219.71 270)
 		(fields_autoplaced yes)
@@ -14087,7 +14097,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_1"
 		(shape input)
 		(at 391.16 118.11 270)
 		(fields_autoplaced yes)
@@ -14241,7 +14251,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_7"
 		(shape input)
 		(at 402.59 240.03 270)
 		(fields_autoplaced yes)
@@ -14417,7 +14427,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_7"
 		(shape input)
 		(at 388.62 240.03 270)
 		(fields_autoplaced yes)
@@ -14571,7 +14581,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_6"
 		(shape input)
 		(at 391.16 219.71 270)
 		(fields_autoplaced yes)
@@ -14637,7 +14647,7 @@
 			)
 		)
 	)
-	(global_label "IR_TRA_0"
+	(global_label "IR_TRA_4"
 		(shape input)
 		(at 402.59 179.07 270)
 		(fields_autoplaced yes)
@@ -14747,7 +14757,7 @@
 			)
 		)
 	)
-	(global_label "IR_REC_0"
+	(global_label "IR_REC_3"
 		(shape input)
 		(at 400.05 158.75 270)
 		(fields_autoplaced yes)
@@ -15471,7 +15481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 269.24 0)
+		(at 111.76 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15479,7 +15489,7 @@
 		(dnp no)
 		(uuid "17bd5550-e4f2-4b92-8a9d-fc638504d1fe")
 		(property "Reference" "#PWR013"
-			(at 99.06 275.59 0)
+			(at 111.76 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15488,7 +15498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 269.24 0)
+			(at 109.22 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15496,7 +15506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 269.24 0)
+			(at 111.76 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15505,7 +15515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 269.24 0)
+			(at 111.76 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15514,7 +15524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 269.24 0)
+			(at 111.76 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17523,7 +17533,7 @@
 			)
 		)
 		(property "Value" "Conn_01x16"
-			(at 101.6 265.43 0)
+			(at 99.822 265.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28511,7 +28521,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 99.06 218.44 0)
+		(at 111.76 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28519,7 +28529,7 @@
 		(dnp no)
 		(uuid "f7245883-0769-4508-bdd7-5f1d324e03b3")
 		(property "Reference" "C4"
-			(at 99.822 215.9 0)
+			(at 112.522 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28528,7 +28538,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 101.6 218.44 0)
+			(at 114.3 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28537,7 +28547,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 100.0252 222.25 0)
+			(at 112.7252 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28546,7 +28556,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 218.44 0)
+			(at 111.76 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28555,7 +28565,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 99.06 218.44 0)
+			(at 111.76 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

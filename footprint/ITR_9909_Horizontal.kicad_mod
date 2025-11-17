@@ -77,15 +77,15 @@
 		(uuid "64922836-6c5f-4f03-8b37-e9c5cca193ea")
 	)
 	(fp_rect
-		(start -4.4 -8)
-		(end 4.4 -2)
+		(start -4.445 -10.16)
+		(end 4.445 -1.905)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "420484e5-dd65-478e-9f48-1b69d0862f77")
+		(layer "Dwgs.User")
+		(uuid "e97279eb-7dea-4ce5-98bc-0ee2aa44980f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.7 0)
