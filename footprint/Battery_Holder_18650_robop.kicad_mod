@@ -65,6 +65,19 @@
 		(layer "F.SilkS")
 		(uuid "79b604d4-6c01-4bec-9a78-da87201f3fc9")
 	)
+	(fp_poly
+		(pts
+			(xy -38.5 10.4) (xy -38.5 3.5) (xy -45.6 3.5) (xy -45.6 -3.7) (xy -38.5 -3.7) (xy -38.5 -10.6) (xy 38.5 -10.6)
+			(xy 38.5 -3.6) (xy 45.6 -3.6) (xy 45.6 3.5) (xy 38.5 3.5) (xy 38.5 10.4)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0153ce72-ec23-4470-ab2d-4a5697ef8cc6")
+	)
 	(fp_text user "-"
 		(at 39.5 9 0)
 		(unlocked yes)
@@ -131,7 +144,7 @@
 	)
 	(pad "" thru_hole circle
 		(at -36 -8)
-		(size 3 3)
+		(size 3.2 3.2)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)

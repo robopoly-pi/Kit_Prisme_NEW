@@ -176,6 +176,17 @@
 		(layer "Dwgs.User")
 		(uuid "67632285-faad-4bc8-8046-762ec02ed6ab")
 	)
+	(fp_rect
+		(start -7.7 -2.6)
+		(end 7.7 2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bcbfd8f5-1a70-46f3-9a65-f5940fb14018")
+	)
 	(fp_text user "SW"
 		(at 0 5.715 90)
 		(unlocked yes)
