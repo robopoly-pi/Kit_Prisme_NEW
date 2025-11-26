@@ -94,6 +94,28 @@
 		(layer "F.SilkS")
 		(uuid "e9fd08bd-896f-45c3-a723-4557cc9be0a1")
 	)
+	(fp_rect
+		(start -23.368 5.08)
+		(end -15.24 11.176)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1f427619-7f96-498a-acd3-301456a86b79")
+	)
+	(fp_rect
+		(start -9.144 5.588)
+		(end -1.524 11.557)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "49667d2d-5902-4e1c-b9c1-d9942bccc634")
+	)
 	(fp_arc
 		(start -24.135 -35.48)
 		(mid -23.322221 -37.442221)
@@ -334,64 +356,59 @@
 		(layer "F.Fab")
 		(uuid "fea4f3d6-c673-42af-8b6f-df9992e8560e")
 	)
-	(fp_text user "-"
-		(at -16.53 9.86 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "1df70bb3-68bd-4c12-bce6-6813cd65d626")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "USB"
-		(at -5.23 8.66 0)
+		(at -8.255 9.652 0)
 		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "68cea52b-b65a-4f02-9bad-6d4e77b80063")
+		(layer "F.SilkS")
+		(uuid "1022d357-61c5-4b35-a2c3-4316cfc714e5")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
+			(justify left bottom)
 		)
 	)
-	(fp_text user "BAT"
-		(at -19.13 8.66 0)
+	(fp_text user "Bat"
+		(at -22.098 8.128 0)
 		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "a532aa87-509f-4782-94fa-42d16a5751bc")
+		(layer "F.SilkS")
+		(uuid "929f538f-0f27-42c8-a647-46f5c96c6e3d")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 2 2)
+				(thickness 0.2)
 			)
+			(justify left bottom)
 		)
 	)
-	(fp_text user "+"
-		(at -22.23 9.86 0)
+	(fp_text user "wemos lolin32 lite"
+		(at -10.922 1.143 90)
 		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "d745c43a-8d84-4ec4-90b0-2546037c9e4f")
+		(layer "F.SilkS")
+		(uuid "b5d76591-c1ae-4882-96b6-b9409c072c52")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
+			(justify left bottom)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at -11.43 -27.84 0)
+	(fp_text user "+ -"
+		(at -22.987 10.668 0)
 		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "d7a02734-1711-4ac0-aab2-8fc131a49f5f")
+		(layer "F.SilkS")
+		(uuid "d27f36aa-e595-46b3-b45f-7d90df2766c5")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
+			(justify left bottom)
 		)
 	)
 	(pad "" np_thru_hole circle

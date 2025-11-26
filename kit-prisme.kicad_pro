@@ -52,7 +52,72 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|270805000|102775000|dadc94c4-8965-41e3-8eec-30581732fbf6|e8c900a3-b491-47fb-9d4e-ce24cd996b11",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "courtyards_overlap|270805000|105315000|0f240d53-ddc3-4f72-bd88-ca8fd4e63398|dadc94c4-8965-41e3-8eec-30581732fbf6",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "missing_courtyard|211500000|121500000|109fbd8c-519b-4ffc-9a0a-7396aceddbc6|00000000-0000-0000-0000-000000000000",
+          "this is a silkscreen logo. it dont need an occupation zone"
+        ],
+        [
+          "missing_courtyard|264090000|174780000|6061f55b-8675-41f5-8eb0-e6cfac2a470d|00000000-0000-0000-0000-000000000000",
+          "This is just a logo on silkscreen. dont require a keepout area"
+        ],
+        [
+          "silk_overlap|232200000|103160000|76ee8f59-d03d-44a8-99d7-bccd0cf028f8|c6d6623e-b8be-45c0-a08d-04460e79c7b6",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "silk_overlap|232200000|103380000|317ece29-d6b0-422a-86d2-128c9e101f89|e0830c52-d20b-4304-9f28-d252e7c20b65",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "silk_overlap|232200000|103380000|76ee8f59-d03d-44a8-99d7-bccd0cf028f8|e0830c52-d20b-4304-9f28-d252e7c20b65",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "silk_overlap|232200000|105700000|26a8a526-d7b5-4b7c-8478-0f25543b0096|e0830c52-d20b-4304-9f28-d252e7c20b65",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "silk_overlap|232200000|105700000|c430de1b-35d5-4775-9649-10aa9958e961|e0830c52-d20b-4304-9f28-d252e7c20b65",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "silk_overlap|232200000|105920000|26a8a526-d7b5-4b7c-8478-0f25543b0096|7dbcb869-9b49-419a-b7dc-5fe375bc9c3c",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "silk_overlap|270410000|103160000|883b4762-95c5-4dbd-823e-f1acfbb4b15e|f4f7a008-dc2c-4778-9602-9443fb437354",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "silk_overlap|270410000|103160000|c6d6623e-b8be-45c0-a08d-04460e79c7b6|f4f7a008-dc2c-4778-9602-9443fb437354",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "silk_overlap|270410000|103380000|317ece29-d6b0-422a-86d2-128c9e101f89|883b4762-95c5-4dbd-823e-f1acfbb4b15e",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "silk_overlap|270410000|105700000|883b4762-95c5-4dbd-823e-f1acfbb4b15e|c430de1b-35d5-4775-9649-10aa9958e961",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "silk_overlap|270410000|105920000|7dbcb869-9b49-419a-b7dc-5fe375bc9c3c|c0f8b3c8-6e22-4f73-914d-d280d24c1f11",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ],
+        [
+          "silk_overlap|270410000|105920000|883b4762-95c5-4dbd-823e-f1acfbb4b15e|c0f8b3c8-6e22-4f73-914d-d280d24c1f11",
+          "this is done un purpose to accomodate a servo DuPont connector"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -129,7 +194,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
