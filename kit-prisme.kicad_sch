@@ -6643,6 +6643,17 @@
 		)
 		(uuid "bab6025c-9962-4702-bcd2-d32a65a5739e")
 	)
+	(text "TO CHECK / FIX\n-> mosfet orientation\n-> Mosfet pinout\n-> spacing J1 \n-> motor driver module footprint\n-> width ITR9099 for compatibility\n-> Vcut for breakoff + solder joint\n-> Silk note : pin for DC Boost + trimming 5V\n-> CH340C driver windows\n-> Dumb proof the battery reverse system, also for lolin...\n-> move layout of U22 and U13 mux for soldering with encoder\n-> H-bridge, use red version. Not black...\n-> Investigate Battery Issue... (lolin has no safety feature...)\n-> ESP32 C3 ? S2 ?\n-> https://de.aliexpress.com/item/1005006823382633.html (charger)\n-> https://de.aliexpress.com/item/1005005374060805.html (1S BMS)"
+		(exclude_from_sim no)
+		(at -5.08 -131.572 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+			(justify left)
+		)
+		(uuid "c91bc609-c2e9-4d49-9127-1c28174714a4")
+	)
 	(text "this is why you have a solder jumper to wire you own supply as needed"
 		(exclude_from_sim no)
 		(at 160.274 253.746 0)
@@ -14818,7 +14829,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "27R"
 			(at 371.348 90.678 90)
 			(effects
 				(font
@@ -15881,7 +15892,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7000")
-		(at 367.03 245.11 270)
+		(at 367.03 245.11 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15889,7 +15901,7 @@
 		(dnp no)
 		(uuid "1a2a297a-15e6-4089-a721-ce623ed08c48")
 		(property "Reference" "Q11"
-			(at 361.442 243.078 90)
+			(at 372.618 243.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15898,7 +15910,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 363.22 250.698 90)
+			(at 370.84 250.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15907,7 +15919,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 365.125 250.19 0)
+			(at 368.935 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15918,7 +15930,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 363.22 250.19 0)
+			(at 370.84 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16037,7 +16049,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3K3"
 			(at 317.5 131.318 90)
 			(effects
 				(font
@@ -16670,7 +16682,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7000")
-		(at 367.03 184.15 270)
+		(at 367.03 184.15 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16678,7 +16691,7 @@
 		(dnp no)
 		(uuid "23d590ae-4716-4265-b521-1576d77b7aa1")
 		(property "Reference" "Q8"
-			(at 361.442 182.118 90)
+			(at 372.618 182.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16687,7 +16700,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 363.22 189.738 90)
+			(at 370.84 189.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16696,7 +16709,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 365.125 189.23 0)
+			(at 368.935 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16707,7 +16720,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 363.22 189.23 0)
+			(at 370.84 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16760,7 +16773,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3K3"
 			(at 317.5 151.638 90)
 			(effects
 				(font
@@ -17162,7 +17175,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7000")
-		(at 367.03 123.19 270)
+		(at 367.03 123.19 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17170,7 +17184,7 @@
 		(dnp no)
 		(uuid "2d63d1a1-a71c-42fb-aea9-6ccbb1fab901")
 		(property "Reference" "Q5"
-			(at 361.442 121.158 90)
+			(at 372.618 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17179,7 +17193,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 362.966 128.778 90)
+			(at 371.094 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17188,7 +17202,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 365.125 128.27 0)
+			(at 368.935 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17199,7 +17213,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 363.22 128.27 0)
+			(at 370.84 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18390,7 +18404,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "27R"
 			(at 371.348 131.318 90)
 			(effects
 				(font
@@ -18664,7 +18678,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "27R"
 			(at 371.348 110.998 90)
 			(effects
 				(font
@@ -19636,7 +19650,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "27R"
 			(at 371.348 232.918 90)
 			(effects
 				(font
@@ -19889,7 +19903,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7000")
-		(at 367.03 224.79 270)
+		(at 367.03 224.79 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19897,7 +19912,7 @@
 		(dnp no)
 		(uuid "56790012-9cd3-46e3-91d2-1fc9e5c64723")
 		(property "Reference" "Q10"
-			(at 361.442 222.758 90)
+			(at 372.618 222.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19906,7 +19921,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 362.712 230.378 90)
+			(at 371.348 230.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19915,7 +19930,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 365.125 229.87 0)
+			(at 368.935 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19926,7 +19941,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 363.22 229.87 0)
+			(at 370.84 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20034,7 +20049,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7000")
-		(at 367.03 204.47 270)
+		(at 367.03 204.47 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20042,7 +20058,7 @@
 		(dnp no)
 		(uuid "57159ad3-b160-4460-9d98-c928d1ce13ae")
 		(property "Reference" "Q9"
-			(at 361.442 202.438 90)
+			(at 372.618 202.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20051,7 +20067,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 362.966 210.058 90)
+			(at 371.094 210.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20060,7 +20076,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 365.125 209.55 0)
+			(at 368.935 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20071,7 +20087,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 363.22 209.55 0)
+			(at 370.84 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20190,7 +20206,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3K3"
 			(at 317.5 192.278 90)
 			(effects
 				(font
@@ -20935,7 +20951,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "27R"
 			(at 371.348 212.598 90)
 			(effects
 				(font
@@ -22853,7 +22869,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3K3"
 			(at 317.5 232.918 90)
 			(effects
 				(font
@@ -23063,7 +23079,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "27R"
 			(at 371.348 151.638 90)
 			(effects
 				(font
@@ -23196,7 +23212,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "27R"
 			(at 371.348 171.958 90)
 			(effects
 				(font
@@ -23462,7 +23478,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3K3"
 			(at 317.5 90.678 90)
 			(effects
 				(font
@@ -23789,7 +23805,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7000")
-		(at 367.03 143.51 270)
+		(at 367.03 143.51 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23797,7 +23814,7 @@
 		(dnp no)
 		(uuid "9aab68f6-98bf-41ff-a5f1-dc47b8887e2d")
 		(property "Reference" "Q6"
-			(at 361.442 141.478 90)
+			(at 372.618 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23806,7 +23823,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 363.728 149.098 90)
+			(at 370.332 149.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23815,7 +23832,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 365.125 148.59 0)
+			(at 368.935 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23826,7 +23843,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 363.22 148.59 0)
+			(at 370.84 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24193,7 +24210,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7000")
-		(at 367.03 102.87 270)
+		(at 367.03 102.87 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24201,7 +24219,7 @@
 		(dnp no)
 		(uuid "a1203f79-ed2f-4e08-8a80-a19cc9fb3f79")
 		(property "Reference" "Q4"
-			(at 361.442 100.838 90)
+			(at 372.618 100.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24210,7 +24228,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 362.712 108.458 90)
+			(at 371.348 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24219,7 +24237,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 365.125 107.95 0)
+			(at 368.935 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24230,7 +24248,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 363.22 107.95 0)
+			(at 370.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25018,7 +25036,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3K3"
 			(at 317.5 110.998 90)
 			(effects
 				(font
@@ -25770,7 +25788,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3K3"
 			(at 317.5 171.958 90)
 			(effects
 				(font
@@ -26594,7 +26612,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3K3"
 			(at 317.5 212.598 90)
 			(effects
 				(font
@@ -28051,7 +28069,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "27R"
 			(at 371.348 192.278 90)
 			(effects
 				(font
@@ -28446,7 +28464,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7000")
-		(at 367.03 163.83 270)
+		(at 367.03 163.83 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28454,7 +28473,7 @@
 		(dnp no)
 		(uuid "f4baedf6-5b91-4921-8e55-124b72581973")
 		(property "Reference" "Q7"
-			(at 361.442 161.798 90)
+			(at 372.618 161.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28463,7 +28482,7 @@
 			)
 		)
 		(property "Value" "2N7000"
-			(at 362.712 169.418 90)
+			(at 371.348 169.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28472,7 +28491,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 365.125 168.91 0)
+			(at 368.935 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28483,7 +28502,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 363.22 168.91 0)
+			(at 370.84 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
